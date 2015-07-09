@@ -1,7 +1,11 @@
 # Electric Stats
-Electricity status aggregator from Raspberry Pi.
 
-## REST API
+## Go Server
+* It runs on Google App Engine.
+* It receives status from Python clients running on Raspberry Pi.
+* It stores the uploaded data.
+* Data Analytics are done and displayed as well.
+* Also, it tweets status as well.
 
 ### Sync status
 Only API endpoint which has to be called by the bots.
