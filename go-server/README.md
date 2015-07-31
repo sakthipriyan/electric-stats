@@ -28,7 +28,7 @@ When uploaded data is successfully saved.
 #### Error Responses
 In case, if the Authorization header is invalid.
 
-    401 Unathorized
+    401 unauthorized
 
 In case, if the input json is invalid.
 
